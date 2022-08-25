@@ -1,0 +1,48 @@
+body{
+    background-color: #2E3333;
+    color: rgb(224, 224, 224);
+    text-shadow: 0px 0px 3px #000000;
+}
+
+nav{
+    background-color: #9C5257;
+}
+
+footer{
+    background-color: #9C5257;
+}
+
+a:link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.box-shadow{
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+.bg-verde{
+    background-color: #AD686D;
+}
+
+.bg-verde-escuro{
+    background-color: #9C5257;
+}
+
+.links-contato{
+    color: rgb(224, 224, 224);
+    text-shadow: 0px 0px 3px #000000;
+}
+
+.links-contato:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px #ffffff;
+}
+
+.box-contato{
+    color: rgba(255, 255, 255, 0);
+}
+
+.box-contato:hover{
+    box-shadow: 0px 0px 20px #ffffff;
+}

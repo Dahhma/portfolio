@@ -1,0 +1,120 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/favicon_st.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon_st.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon_st.png">
+    <link rel="manifest" href="imagens/favicon_st.png">
+    <link rel="mask-icon" href="imagens/favicon_st.png" color="#e04040">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#333333">
+    
+    <!-- Estilos  -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/conteudo.css">
+    <link rel="stylesheet" href="css/sac.css">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima&display=swap" rel="stylesheet">
+
+    <!-- Título -->
+    <title>SAC | Stranger Things </title>
+</head>
+<body>
+    <div id="container_geral">
+        <header>
+            <img id="inicio" src="imagens/imagem_capa.jpg" width="100%" title="Capa da série Stranger Things" alt="Capa da série stranger things, onde há ilustrações de cada personagem em momentos diferentes da serie">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="st_index.html">Home</a></li>
+                <li><a href="st_personagens.html">Personagens</a></li>
+                <li><a href="st_trailers.html">Trailers</a></li>
+                <li><a href="st_sac.html" class="menu_ativado">SAC</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>
+                Serviço de atendimento ao cliente
+            </h1>
+            <div>
+                <form method="post" action="https://httpbin.org/post" enctype="multipart/form-data">
+                    <fieldset>
+                        
+                        <div>
+                        <label>
+                            Nome:
+                            <input type="text" name="nome" placeholder="Digite seu nome:" required>
+                        </label> 
+                        <label>
+                            E-mail:
+                            <input type="email" name="email" placeholder="Digite seu e-mail:" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <textarea rows="20" cols="90" placeholder="Digite aqui seu problema, sujestão ou comentário:" required></textarea>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Arquivo:
+                            <input type="file" name="arquivo">
+                        </label>
+                    </div>
+                    <div class="centralizar">
+                        <p>
+                            <button type="submit">Enviar</button>                           
+                            <button type="reset">Limpar</button>
+                        </p>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <h3>Para dúvidas, entre em contato:</h3>
+            <div>
+               <a href="https://www.instagram.com/accounts/login/?next=/hey.dr1an/" target="_blank">
+                    <img src="imagens/icon_instagram.png" height="20">
+                    <strong>@Hey.dr1an</strong></a>
+            </div>
+            <div>
+                <a href="https://twitter.com/Heydr14n" target="_blank">
+                    <img src="imagens/icon_twitter.png" height="20">
+                    <strong>@Heydr14n</strong></a>
+            </div>
+            <div>
+                <a href="https://pt-br.facebook.com/heydrianborhes" target="_blank">
+                    <img src="imagens/icon_facebook.png" height="20">
+                    <strong>Heydrian Borges</strong></a>
+            </div>
+            <div>
+                <a href="tel:+5555999591658"> 
+                    <img src="imagens/icon_telefone.png" height="20">
+                    <strong>+55(55)999591658</strong></a>
+            </div>
+            <div>
+                <a href="mailto:heydrianborges@gmail.com"> 
+                    <img src="imagens/icon_email.png" height="20">
+                    <strong>heydrianborges@gmail.com</strong></a>
+            </div>
+            <p>
+                <small>Copyright by Heydrian B.P.S. | &copy; 2022</small>
+            </p>
+            <div class="round">
+                <a href="#inicio">
+                    <img src="imagens/seta_st.png" height="60">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,169 @@
+body{
+    background-image: linear-gradient(to right, rgb(0, 198, 224),rgb(221, 255, 253),rgb(193, 253, 249),rgb(221, 255, 253),rgb(193, 253, 249),rgb(221, 255, 253),rgb(0, 198, 224));
+}
+
+h1{
+    text-shadow: 0px 0px 3px rgb(000, 255, 255);
+}
+
+nav a{
+    color: rgb(93, 244, 255);
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
+}
+
+nav a:hover{
+    color: rgb(93, 244, 255);
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
+}
+
+footer{
+    text-align: center;
+    color: rgb(93, 244, 255);
+    background-color: rgb(34, 34, 34);
+    border-color:rgb(0, 204, 255);
+    box-shadow: 0px 0px 20px rgb(0, 255, 255);
+}
+.back-vid{
+    background-image: linear-gradient(to right, rgb(56, 56, 56), rgb(0, 225, 255));
+}
+
+.back-vidi{
+    background-image: linear-gradient(to right, rgb(56, 56, 56), rgb(0, 163, 212));
+}
+
+
+
+div.video{
+    position: relative;
+    padding-bottom: 58%;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.hoverhover{
+    color: rgb(93, 244, 255) !important;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0) !important;
+}
+
+.hoverhover:hover{
+    color: rgb(239, 255, 254) !important;
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(0, 204, 255) !important;
+}
+
+.borda{
+    border-radius: 5px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.text-direita{
+    text-align: right;
+}
+
+.text-esquerda{
+    text-align: left;
+}
+
+ul li a:hover{
+    border-color:rgb(138, 222, 255) !important;
+    box-shadow: rgb(151, 255, 255)  !important;
+    background-color: rgb(65, 65, 65);
+}
+
+form div label{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+
+div form h3{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+.azulback{
+    background-color: rgb(65, 65, 65);
+}
+
+.blackback{
+    background-color: rgb(0, 218, 218) !important;
+}
+
+.blackblack{
+    background-color: rgb(0, 167, 218) !important;
+}
+
+.icones{
+    color: rgb(93, 244, 255);
+    text-shadow: 0px 0px 2px rgb(0, 204, 255);
+}
+
+.navegacao-int{
+    border-color:rgb(0, 204, 255) !important;
+    box-shadow: rgb(0, 255, 255)  !important;
+}
+
+.container-geral{
+    border-color:rgb(0, 204, 255);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgb(0, 255, 255);
+    
+}
+
+.text-justificado{
+    text-align: justify;
+    text-shadow: 0px 0px 1px black;
+   
+}
+
+.margemtopo{
+    margin-top: 65px;
+}
+
+.text-shadow{
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(0, 204, 255);
+}
+
+.text-color{
+    color: rgb(0, 0, 0);
+}
+
+.shadow-hover:hover{
+    border-color:rgb(0, 204, 255) !important;
+    box-shadow: 0px 0px 5px rgb(0, 255, 255)  !important;
+}
+
+.box-shadow{
+    border-color:rgb(0, 204, 255) !important;
+    box-shadow: 0px 0px 20px rgb(0, 255, 255)  !important;
+}
+
+.contato{
+    color: rgb(93, 244, 255);
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+    padding-right: 3px;
+}
+
+.contato:hover{
+    color: rgb(213, 252, 255);
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(0, 204, 255);
+
+}
+
+.selecionado{
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 5px rgb(0, 204, 255), 0 0 10px rgb(255, 255, 255) !important;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.box-unshadow{
+    box-shadow: none !important;
+    border-color: none !important;
+}
